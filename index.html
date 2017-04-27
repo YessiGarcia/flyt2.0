@@ -2,6 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/formulario-header.css">
+		<link rel="stylesheet" href="assets/css/navegador.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Flyt 2.0 </title>
     <!--Pon tus enlaces de estilo aqui formato assets/css/nombreDeLaSeccion.css-->
   </head>
@@ -11,47 +14,33 @@
 
     <!--Fin Navegador Pari -->
     <!-- Seccion 1 - Karen- Formulario/Header-->
-       <form id="formulario">
-         <section id="formularioMostrado">
-             <div class="">
-               <input type="tel" name="phone" value="Phone Number" id="formTelefono">
-               </div>
-             <section id="formularioOculto">
-               <div>
-                     <input type="name" name="first Name" value="First name">
-                 </div>
-                 <div>
-                     <input type="name" name="last Name"  value="Last name">
-                 </div>
-                 <div>
-                     <input type="email" name="email" value="e-mail">
-                 </div>
-                 <div>
-                     <input type="text" name="region" value="City">
-                 </div>
-                 <div>
-                     <input type="checkbox">
-                     <label for="agreeToTerms">
-                         <span class="text-small">
-                             I agree to
-                             <a href="/terms">Lyft´s Terms of Service</a>
-                         </span>
-                     </label>
-                 </div>
-             </section>
-           </section>
-              <div>
-                  <button type="submit">Become a Driver</button>
-                  <button type="button">Sing Up to Ride</button>
-              </div>
-              <div>
-                  <p>"Already applies?"</p>
-                  <a href="#">Check the status of your application here.</a>
-                  <p>"Earn money for inviting friends to drive."</p>
-                  <a href="#">Learn More</a>
-
-              </div>
-       </form>
+    <section class="totalForm">
+     <div class="cuadroForm">
+      <h1>TURN MILES<br>
+        INTO MONEY</h1>
+      <p class="subtitulo">SIGN UP TO DRIVE WHITH LYFT</p>
+      <div id="formularioMostrado">
+        <input type="tel" name="phone" value="Phone Number" id="formTelefono">
+      </div>
+      <div id="formularioOculto">
+        <input type="text" name="first Name" value="First name">
+        <input type="text" name="last Name"  value="Last name">
+        <input type="text" name="email" value="e-mail">
+        <input type="text" name="region" value="City">
+        <input class="cuadrito" type="checkbox">
+        <label for="agreeToTerms"></label>
+        <span class="condiciones"></span>
+        I agree to <a href="/terms">Lyft´s Terms of Service</a><br>
+        </div>
+        <div id="formularioMostrado">
+          <button class="driver" type="submit">Become a Driver</button>
+          <button class="sing" type="button">Sing Up to Ride</button><br>
+          <p class="condiciones">Already applies?
+          <a href="#" class="condiciones" id="link">Check the status of your application here.</a></p>
+        <p class="condiciones"> Earn money for inviting friends to drive.
+        <a href="#" class="condiciones" id="link">Learn More</a> </p>
+         </div>
+       </div>
     <!--fin formulario header -->
     <!--Seccion Informativa 1 Karen-->
      <div>
